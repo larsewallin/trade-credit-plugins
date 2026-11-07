@@ -1,0 +1,25 @@
+{
+  "name": "larsewallin",
+  "owner": {
+    "name": "Lars E. Wallin",
+    "url": "https://larsewallin.com"
+  },
+  "metadata": {
+    "description": "Free, open-source Claude plugins for trade credit and receivables teams, by Lars E. Wallin.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "larsewallin-payment-risk",
+      "source": "./plugins/payment-risk",
+      "description": "Find customers who are paying late, paying later over time, or paying erratically, from any payment history export.",
+      "version": "0.1.0",
+      "category": "finance",
+      "keywords": [
+        "trade credit",
+        "collections",
+        "payment behaviour"
+      ]
+    }
+  ]
+}
