@@ -1,0 +1,22 @@
+{
+  "name": "larsewallin-payment-risk",
+  "displayName": "Payment Risk by Lars E. Wallin",
+  "version": "0.1.0",
+  "description": "Find B2B customers who are paying late, paying later over time, or paying erratically, from any payment history export. Ranked watchlist, interactive dashboard and one-customer deep dives. Runs locally; no data leaves your machine.",
+  "author": {
+    "name": "Lars E. Wallin",
+    "url": "https://larsewallin.com"
+  },
+  "homepage": "https://larsewallin.com",
+  "license": "MIT",
+  "keywords": [
+    "trade credit",
+    "credit management",
+    "accounts receivable",
+    "collections",
+    "payment behaviour",
+    "DSO",
+    "customer risk"
+  ],
+  "repository": "https://github.com/larsewallin/trade-credit-plugins"
+}
