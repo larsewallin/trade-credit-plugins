@@ -33,6 +33,19 @@
         "AR aging",
         "collections"
       ]
+    },
+    {
+      "name": "larsewallin-customer-checks",
+      "source": "./plugins/customer-checks",
+      "description": "Check new customers against official registers and the OFAC, EU, UN and UK sanctions lists: new-customer memo and sanctions screening of customer lists.",
+      "version": "0.1.0",
+      "category": "finance",
+      "keywords": [
+        "trade credit",
+        "KYB",
+        "sanctions screening",
+        "customer onboarding"
+      ]
     }
   ]
 }

@@ -5,9 +5,10 @@ Free, open-source Claude plugins for trade credit, credit management and receiva
 | Plugin | What it does |
 |---|---|
 | [Payment Risk](plugins/payment-risk) | Finds customers who are paying late, paying later over time, or paying erratically, from any payment history export. Ranked watchlist, dashboard, one-customer deep dives. |
+| [Customer Checks](plugins/customer-checks) | New-customer check against official registers, VAT and domain records, with a memo for the credit file; sanctions screening (OFAC, EU, UN, UK) of one company or a whole customer list. Uses the free Company Lookup connector. |
 | [AR Aging](plugins/ar-aging) | Ages an open-items export into 1–30, 31–60, 61–90 and 90+ days past due, flags credit-limit use, and lists whom to chase first. Dashboard and spreadsheets. |
 
-More to come: credit-limit calculation and collections letters. Suggestions welcome in Discussions.
+More to come: credit-limit calculation, collections letters, and country and industry watch. Suggestions welcome in Discussions.
 
 ## Install
 
