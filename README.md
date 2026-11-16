@@ -5,8 +5,9 @@ Free, open-source Claude plugins for trade credit, credit management and receiva
 | Plugin | What it does |
 |---|---|
 | [Payment Risk](plugins/payment-risk) | Finds customers who are paying late, paying later over time, or paying erratically, from any payment history export. Ranked watchlist, dashboard, one-customer deep dives. |
+| [AR Aging](plugins/ar-aging) | Ages an open-items export into 1–30, 31–60, 61–90 and 90+ days past due, flags credit-limit use, and lists whom to chase first. Dashboard and spreadsheets. |
 
-More to come: AR aging, credit-limit calculation, collections letters, sanctions screening and new-customer checks. Suggestions welcome in Discussions.
+More to come: credit-limit calculation and collections letters. Suggestions welcome in Discussions.
 
 ## Install
 
@@ -33,6 +34,8 @@ Then ask Claude: *"Run a payment risk review on the sample data."*
 ```
 python3 tests/test_engine.py     # engine tests (ported from the production TypeScript suite)
 python3 tests/test_reader.py     # file reading + end-to-end
+python3 tests/test_ar_aging.py   # AR aging: reader, rules, end-to-end
+python3 tests/make_ar_sample.py  # regenerate the AR sample file
 python3 tests/make_sample.py     # regenerate the sample file
 ```
 

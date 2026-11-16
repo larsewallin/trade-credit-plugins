@@ -1,0 +1,21 @@
+{
+  "name": "larsewallin-ar-aging",
+  "displayName": "AR Aging by Lars E. Wallin",
+  "version": "0.1.0",
+  "description": "Age an accounts receivable open-items export into Current, 1-30, 31-60, 61-90 and over-90 days past due, flag customers by worst bucket and credit-limit use, and get a collections priority list and dashboard. Runs locally; no data leaves your machine.",
+  "author": {
+    "name": "Lars E. Wallin",
+    "url": "https://larsewallin.com"
+  },
+  "homepage": "https://larsewallin.com",
+  "license": "MIT",
+  "keywords": [
+    "trade credit",
+    "accounts receivable",
+    "AR aging",
+    "aged debtors",
+    "collections",
+    "credit limit"
+  ],
+  "repository": "https://github.com/larsewallin/trade-credit-plugins"
+}
