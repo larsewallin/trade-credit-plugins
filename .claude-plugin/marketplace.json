@@ -20,6 +20,19 @@
         "collections",
         "payment behaviour"
       ]
+    },
+    {
+      "name": "larsewallin-ar-aging",
+      "source": "./plugins/ar-aging",
+      "description": "Age an AR open-items export into 1-30, 31-60, 61-90 and 90+ days past due, with a collections priority list and dashboard.",
+      "version": "0.1.0",
+      "category": "finance",
+      "keywords": [
+        "trade credit",
+        "accounts receivable",
+        "AR aging",
+        "collections"
+      ]
     }
   ]
 }
