@@ -1,0 +1,14 @@
+{
+  "name": "larsewallin-customer-checks",
+  "displayName": "Customer Checks by Lars E. Wallin",
+  "version": "0.1.0",
+  "description": "Check new B2B customers against official company registers, GLEIF, EU VAT, domain records and the OFAC, EU, UN and UK sanctions lists, with a new-customer memo and sanctions screening of whole customer lists. Uses the free Company Lookup connector.",
+  "author": {
+    "name": "Lars E. Wallin",
+    "url": "https://larsewallin.com"
+  },
+  "homepage": "https://larsewallin.com",
+  "license": "MIT",
+  "keywords": ["trade credit", "KYB", "customer onboarding", "sanctions screening", "OFAC", "company registers"],
+  "repository": "https://github.com/larsewallin/trade-credit-plugins"
+}
